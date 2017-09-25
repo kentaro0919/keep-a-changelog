@@ -8,13 +8,19 @@ version: 0.3.0
 :markdown
   # Keep a CHANGELOG
 
+  CHANGELOG　を維持しよう。
+
   ## Don’t let your friends dump git logs into CHANGELOGs™
+
+　gitログを　CHANGELOGs™　にダンプされないように。
 
   Version **#{current_page.metadata[:page][:version]}**
 
   ### What’s a change log?
   A change log is a file which contains a curated, chronologically ordered
   list of notable changes for each version of a project.
+
+  CHANGELOG　は、キュレーション(管理)され、プロジェクトの各バージョンの注目すべき変更を、時系列的に順序付けられたリストしたのファイルです。
 
 %pre.changelog= File.read("CHANGELOG.md")
 
